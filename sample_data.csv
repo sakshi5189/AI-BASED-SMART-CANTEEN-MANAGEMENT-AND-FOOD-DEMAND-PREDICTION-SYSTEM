@@ -1,0 +1,6 @@
+service_date,menu,weather,expected_students,meals_prepared,meals_sold
+2026-11-10,Veg Thali,Sunny,150,155,143
+2026-11-11,Pav Bhaji,Cloudy,135,140,128
+2026-11-12,Idli Sambar,Rainy,120,125,109
+2026-11-13,Rice Bowl,Sunny,160,165,151
+2026-11-14,Poha,Cloudy,90,95,86
