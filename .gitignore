@@ -1,5 +1,7 @@
 venv/
 __pycache__/
 *.pyc
-canteen.db
 .env
+*.db
+.dist/
+.gitignore.backup
