@@ -1,0 +1,4 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SmartCanteen AI</title><link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}"></head><body>
+<header><div class="brand"><span class="logo">🍱</span><div><b>SmartCanteen AI</b><small>Food demand & waste intelligence</small></div></div><nav><a href="/">Dashboard</a><a href="/predict">Predict Demand</a><a href="/records">Daily Records</a><a href="/surplus">Surplus Food</a><a href="/import">Import CSV</a></nav></header>
+<main>{% with messages=get_flashed_messages(with_categories=true) %}{% if messages %}{% for category,message in messages %}<div class="flash {{category}}">{{message}}</div>{% endfor %}{% endif %}{% endwith %}{% block content %}{% endblock %}</main>
+<footer>SmartCanteen AI · College canteen planning prototype</footer></body></html>
