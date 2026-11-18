@@ -1,4 +1,8 @@
 Flask==3.1.1
-scikit-learn==1.7.0
-numpy>=1.26
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.3
 gunicorn==23.0.0
+psycopg[binary]==3.2.9
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.0
